@@ -10,7 +10,6 @@ charset-normalizer==2.0.12
 click==8.1.0
 cloudpickle==2.0.0
 cycler==0.11.0
--e git+https://github.com/facebookresearch/detectron2.git@6886f85baee349556749680ae8c85cdba1782d8e#egg=detectron2
 fastapi==0.75.0
 fonttools==4.31.2
 future==0.18.2
@@ -69,3 +68,4 @@ urllib3==1.26.9
 uvicorn==0.17.6
 Werkzeug==2.1.0
 yacs==0.1.8
+-e git+https://github.com/facebookresearch/detectron2.git@6886f85baee349556749680ae8c85cdba1782d8e#egg=detectron2
