@@ -353,3 +353,7 @@
 /testenv/lib/python3.10/site-packages/yacs-0.1.8.dist-info/NOTICE filter=lfs diff=lfs merge=lfs -text
 /testenv/lib/python3.10/site-packages/yacs-0.1.8.dist-info/RECORD filter=lfs diff=lfs merge=lfs -text
 /testenv/lib/python3.10/site-packages/yacs-0.1.8.dist-info/WHEEL filter=lfs diff=lfs merge=lfs -text
+*._Model filter=lfs diff=lfs merge=lfs -text
+*._Train_Dataset filter=lfs diff=lfs merge=lfs -text
+/testenv/bin/python filter=lfs diff=lfs merge=lfs -text
+/testenv/bin/python3 filter=lfs diff=lfs merge=lfs -text
