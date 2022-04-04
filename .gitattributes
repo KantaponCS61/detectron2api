@@ -44,6 +44,7 @@
 /testenv/bin/wheel filter=lfs diff=lfs merge=lfs -text
 *.cfg filter=lfs diff=lfs merge=lfs -text
 *.1 filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
 *.DS_Store filter=lfs diff=lfs merge=lfs -text
 *.pyc filter=lfs diff=lfs merge=lfs -text
 /testenv/lib/python3.10/site-packages/LICENSE filter=lfs diff=lfs merge=lfs -text
@@ -52,7 +53,6 @@
 /testenv/lib/python3.10/site-packages/Markdown-3.3.6.dist-info/RECORD filter=lfs diff=lfs merge=lfs -text
 /testenv/lib/python3.10/site-packages/Markdown-3.3.6.dist-info/REQUESTED filter=lfs diff=lfs merge=lfs -text
 /testenv/lib/python3.10/site-packages/Markdown-3.3.6.dist-info/WHEEL filter=lfs diff=lfs merge=lfs -text
-*.dylib filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 /testenv/lib/python3.10/site-packages/Pillow-9.0.1.dist-info/LICENSE filter=lfs diff=lfs merge=lfs -text
 /testenv/lib/python3.10/site-packages/Pillow-9.0.1.dist-info/METADATA filter=lfs diff=lfs merge=lfs -text
